@@ -1,0 +1,6 @@
+<?php
+
+add_action('woocommerce_before_main_content', 'optimizer_woo_shop_header', 9);
+function optimizer_woo_shop_header() { 
+	echo do_shortcode('[section background_image="https://www.nictecreativedesign.com/wp-content/uploads/2018/07/Landing-slider-sld-1.png" text_color ="#ffffff" ]<h1>Online Bootcamp for Small Businesses and Entrepreneurs</h1><p>Join Peg Fitzpatrick for actionable social media education to learn how to use social media to grow your online presence.</p>[/section]');
+}
