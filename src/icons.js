@@ -230,7 +230,6 @@ export default [
       grid: 0,
       tags: [ 'ios-videocam' ] 
     },
-<<<<<<< HEAD
     {paths: 
      [ "M64 928h896l-448-832-448 832zM560 800h-96v-96h96v96zM560 640h-96v-192h96v192z"],
       grid: 0,
@@ -238,12 +237,3 @@ export default [
     }
 
      ]
-=======
-    {"paths": 
-     [ "M64 928h896l-448-832-448 832zM560 800h-96v-96h96v96zM560 640h-96v-192h96v192z"],
-    "grid": 0,
-    "tags": ["md-warning"]
-    }
-
-     ]
->>>>>>> 043ee1078c15e9a1be59dd2e475afea5d543269a
