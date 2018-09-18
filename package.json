@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "_args": [
     [
       "react-ionicons@https://github.com/towfiqi/react-ionicons/tarball/master",
@@ -37,13 +38,30 @@
       "browserify-css"
     ]
   },
+=======
+  "name": "react-ionicons",
+  "version": "2.1.6",
+  "description": "A React SVG ionicon component",
+  "main": "lib/index.js",
+  "author": "zamarrowski",
+  "license": "ISC",
+>>>>>>> 043ee1078c15e9a1be59dd2e475afea5d543269a
   "dependencies": {
     "prop-types": "15.5.10",
     "react": "15.4.2",
     "react-dom": "15.4.2",
     "styled-components": "2.2.3"
   },
+<<<<<<< HEAD
   "description": "A React SVG ionicon component",
+=======
+  "scripts": {
+    "prepublish": "babel ./src --out-dir ./lib --source-maps --presets es2015,react,stage-2 --plugins babel-plugin-add-module-exports",
+    "start": "webpack --watch",
+    "build": "webpack",
+    "copyToDocs": "node copyFiles.js"
+  },
+>>>>>>> 043ee1078c15e9a1be59dd2e475afea5d543269a
   "devDependencies": {
     "babel": "6.23.0",
     "babel-cli": "6.23.0",
@@ -59,6 +77,7 @@
     "style-loader": "0.13.1",
     "webpack": "2.2.1"
   },
+<<<<<<< HEAD
   "license": "ISC",
   "main": "lib/index.js",
   "name": "react-ionicons",
@@ -72,4 +91,14 @@
     "start": "webpack --watch"
   },
   "version": "2.1.6"
+=======
+  "peerDependencies": {
+    "browserify-css": "0.12.0"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-css"
+    ]
+  }
+>>>>>>> 043ee1078c15e9a1be59dd2e475afea5d543269a
 }
