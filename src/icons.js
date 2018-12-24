@@ -255,5 +255,12 @@ export default [
       ],
       grid: 0,
       tags: [ "ios-swap"]
-    }
+    },
+  {
+    paths: [
+      "M832 399h-182.8v-271h-274.4v271h-182.8l320 316.2 320-316.2zM192 805.6v90.4h640v-90.4h-640z"
+    ],
+    grid: 0,
+    tags: [ "md-download" ]
+  }
      ]
