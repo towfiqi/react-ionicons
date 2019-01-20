@@ -271,5 +271,15 @@ export default [
     "tags": [
       "md-desktop"
     ]
+  },
+  {
+    "paths": [
+      "M192 499.2l212 93.4 428-400.6z",
+      "M832 192l-396.2 431.4 103.8 208.6z"
+    ],
+    "grid": 0,
+    "tags": [
+      "ios-send"
+    ]
   }
      ]
